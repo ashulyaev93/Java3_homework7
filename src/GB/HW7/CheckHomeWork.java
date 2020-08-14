@@ -14,7 +14,7 @@ public class CheckHomeWork {
         check.testSum();
     }
 
-    public void testSum() throws Exception{
+    public void testSum() throws Exception{//проверка ДЗ;
         File file = new File("C:/0123");
         String[] fileList = file.list();
 
@@ -69,7 +69,6 @@ public class CheckHomeWork {
             } else {
                 System.out.println(name + " Faild");
             }
-
         }
     }
 }

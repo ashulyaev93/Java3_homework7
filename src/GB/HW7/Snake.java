@@ -78,7 +78,7 @@ public class Snake {
             }
         }
 
-        //Выводим массив в консоль.
+        //Выводим массив в консоль
         for (int x = 0; x < m; x++) {
             for (int y = 0; y < n; y++) {
                 if (array[x][y] < 10) {

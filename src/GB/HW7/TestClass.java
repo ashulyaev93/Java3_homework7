@@ -1,6 +1,6 @@
 package GB.HW7;
 
-public class TestClass {
+public class TestClass { //методы должны вызваться shutdown, met4, met3, met2 ????;
     public static  void method1() {
         System.out.println("met1");
     }
